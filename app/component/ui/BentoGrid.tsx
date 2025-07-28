@@ -47,7 +47,7 @@ export const BentoGridItem = ({
 }) => {
   const leftLists = ["React", "Kotlin", "JavaScript"];
   const rightLists = ["NextJS", "NodeJS", "CSS"];
-   const minrightLists = ["Git", "3D Models", "C#"];
+   const minrightLists = ["Blender", "Figma", "C#"];
 
   const [copied, setCopied] = useState(false);
 
