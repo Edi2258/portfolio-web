@@ -52,7 +52,7 @@ const Hero = () => {
             filter
           />
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white'>
-            I&apos;am Edi Junaedi, a Junior Software Engineer.
+            I&apos;am Edi Junaedi, a Junior Software Developer.
           </p>
           <a href="#about">
             <Buttons title="Show my work" icon={<GiClick />} position='right' />
