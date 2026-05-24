@@ -13,13 +13,11 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
 
   {
-    // Tambahkan aturan spesifik TypeScript ESLint di sini
     files: ["**/*.ts", "**/*.tsx"],
-    plugins: ["@typescript-eslint"],
     rules: {
-      "@typescript-eslint/no-explicit-any": "error"
-    }
-  }
+      "@typescript-eslint/no-explicit-any": "error",
+    },
+  },
 ];
 
 export default eslintConfig;
